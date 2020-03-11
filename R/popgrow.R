@@ -22,7 +22,7 @@
 #` Apply data to function (CHECK)
 #` Graph and add some text describing how to interpret results
 #`
-popgrow = function(population, hunters, growth_rate=0.05, carrying_capacity = 2000, attack_rate = 0.05, handling_time = 0.2) {
+popgrow = function(population, hunters, growth_rate=0.05, carrying_capacity = 3000, attack_rate = 0.05, handling_time = 0.2) {
 
   #make sure that population is not negative
   population = ifelse( (population < 0), return("population cannot be less than 0"), population )
