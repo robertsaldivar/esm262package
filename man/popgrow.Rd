@@ -30,7 +30,9 @@ This function determines the intrinsic population growth rate of a population, i
 .
 }
 \author{
-Robert Saldivar and Nathan Burola
+Robert Saldivar
+
+Nathan BUrola
 
 
 Assignment #1 Details

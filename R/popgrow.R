@@ -9,7 +9,8 @@
 #' @input population is the population size
 #' @input hunters is the number of hunters harvesting the the population. To find th growth rate of the population with out harvest, set hunters to 0
 #' @return is the intrinsic growth rate of the population at a given size with a give harvesting rate.
-#' @author Robert Saldivar and Nathan Burola
+#' @author Robert Saldivar
+#' @author Nathan BUrola
 #'
 #'
 #' Assignment #1 Details
