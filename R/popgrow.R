@@ -8,7 +8,7 @@
 #` @param handling time is the amount of time that it takes for a hunter to havest one individual before they they can harvest the next one, default = 0.2
 #` @input population is the population size
 #` @input hunters is the number of hunters harvesting the the population. To find th growth rate of the population with out harvest, set hunters to 0
-#` @return, is the intrinsic growth rate of the population at a given size with a give harvesting rate.
+#` @return is the intrinsic growth rate of the population at a given size with a give harvesting rate.
 #` @author Robert Saldivar and Nathan Burola
 #`
 #`
