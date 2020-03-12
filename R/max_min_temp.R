@@ -8,5 +8,7 @@
 #' @return Returns the maximum and minimum temperatures of the input list
 #'
 max_min_temp <- function(input) {
-
+  mintemp = apply(input, 2, min) # Find min temp in each column
+  maxtemp = apply(input, 2, max) # Find max temp in each column
+  return(list(min = mintemp, max = maxtemp))
 }
