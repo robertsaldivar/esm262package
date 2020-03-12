@@ -4,10 +4,14 @@
 \alias{water_supply}
 \title{Water Supply}
 \usage{
-water_supply(input)
+water_supply(input, groundwater = 20, use = 50)
 }
 \arguments{
 \item{input}{water precipitation data from dataset}
+
+\item{groundwater}{amount of available ground water (in kg/m^3)}
+
+\item{use}{total water usage in general (in kg m^3)}
 }
 \value{
 Amount of water supply (in kg/m^3)
