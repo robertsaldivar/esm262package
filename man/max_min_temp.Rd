@@ -4,10 +4,10 @@
 \alias{max_min_temp}
 \title{Max Min Temperature Function}
 \usage{
-max_min_temp(input)
+max_min_temp(df)
 }
 \arguments{
-\item{The}{input is an a list of temperatures.}
+\item{df}{data frame containing a list of temperatures as input}
 }
 \value{
 Returns the maximum and minimum temperatures of the input list
