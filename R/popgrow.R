@@ -6,8 +6,8 @@
 #' @param carrying capacity is that the number of indiviuals of a population that a habitat can support, default = 2000
 #' @param attack rate is the rate that hunters can attack and harvest an individual of the population, default = 0.05
 #' @param handling time is the amount of time that it takes for a hunter to havest one individual before they they can harvest the next one, default = 0.2
-#' @input population is the population size
-#' @input hunters is the number of hunters harvesting the the population. To find th growth rate of the population with out harvest, set hunters to 0
+#' @param population is the population size
+#' @param hunters is the number of hunters harvesting the the population. To find th growth rate of the population with out harvest, set hunters to 0
 #' @return is the intrinsic growth rate of the population at a given size with a give harvesting rate.
 #' @author Robert Saldivar
 #' @author Nathan BUrola

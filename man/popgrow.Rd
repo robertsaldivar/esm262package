@@ -14,6 +14,10 @@ popgrow(
 )
 }
 \arguments{
+\item{population}{is the population size}
+
+\item{hunters}{is the number of hunters harvesting the the population. To find th growth rate of the population with out harvest, set hunters to 0}
+
 \item{growth}{rate is the rate the population grows, default = 0.05}
 
 \item{carrying}{capacity is that the number of indiviuals of a population that a habitat can support, default = 2000}
