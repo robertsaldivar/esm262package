@@ -10,4 +10,6 @@
 #'
 mean_precip <- function(input) {
 mean = input/length(input)
+
+return(mean)
 }
