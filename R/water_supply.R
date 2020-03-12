@@ -11,4 +11,5 @@
 
 water_supply = function(input, groundwater = 20, use = 50) {
   y = input + groundwater - use
+  return(y)
 }
