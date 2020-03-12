@@ -6,6 +6,9 @@
 \usage{
 water_supply(input)
 }
+\arguments{
+\item{input}{water precipitation data from dataset}
+}
 \value{
 Amount of water supply (in kg/m^3)
 }
