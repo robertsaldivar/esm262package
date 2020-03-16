@@ -8,14 +8,13 @@
 #' @author Jennifer Truong
 #' @return the mean precipitation of the input precipitation events
 #'
-<<<<<<< HEAD
-mean_precip <- function(input) {
-mean_rainfall = sum(input)/length(input)
 
-return(mean_rainfall)
-=======
 mean_precip <- function(df) {
-  meanprecip = apply(df, 2, mean)
-  return(meanprecip)
->>>>>>> bab07781874b55de09b00d45bea65440a951f817
+
+  total_precip = sum(df[,4])
+
+  average_precip = (total_precip/length(df[,4]))
+
+  return(average_precip)
+
 }
