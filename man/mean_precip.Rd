@@ -4,10 +4,10 @@
 \alias{mean_precip}
 \title{Mean precipitation}
 \usage{
-mean_precip(input)
+mean_precip(df)
 }
 \arguments{
-\item{a}{list of precipitation events}
+\item{df}{data frame containing list of precipitation events}
 }
 \value{
 the mean precipitation of the input precipitation events
