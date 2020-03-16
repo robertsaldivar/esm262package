@@ -9,7 +9,7 @@
 #' @return the mean precipitation of the input precipitation events
 #'
 mean_precip <- function(input) {
-mean = input/length(input)
+mean_rainfall = sum(input)/length(input)
 
-return(mean)
+return(mean_rainfall)
 }
