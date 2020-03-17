@@ -10,7 +10,12 @@
 #' @return Amount of water supply (in kg/m^3)
 #' @export
 
-water_supply = function(input, groundwater = 20, use = 50) {
-  y = input + groundwater - use
+water_supply = function(df, groundwater = 20, use = 50) {
+  total_precip = sum(df[,4])
+
+  #This in converting the precipitation from inches into kg/m^3
+  precip_conversion = total_precip*(25.399)
+
+  y = precip_conversion + groundwater - use
   return(y)
 }
