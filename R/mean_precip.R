@@ -7,7 +7,7 @@
 #' @author Robert Saldivar
 #' @author Jennifer Truong
 #' @return the mean precipitation of the input precipitation events
-#'
+#' @export
 mean_precip <- function(df) {
   meanprecip = apply(df, 2, mean)
   return(meanprecip)
