@@ -14,5 +14,11 @@ test_that("mean_precip_works",
             expect_true(mean_precip(fake_data) >= 0)
             expect_true(mean_precip(noaa_weather_data) >= 0)
 
+            #Creating more fake data to use the expect gt where it works
+            fake_data$precip = 15
+            expect_gt(mean_precip(fake_data), 2)
+
+            #The highest recorded annuall of rainfall in sb county is 46.97 inches so I am going to use the noaa data to ensure that is true
+            expect_lt(mean_precip(noaa_weather_data), 47)
 
           })
