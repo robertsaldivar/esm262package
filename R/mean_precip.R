@@ -7,12 +7,8 @@
 #' @author Robert Saldivar
 #' @author Jennifer Truong
 #' @return the mean precipitation of the input precipitation events
-<<<<<<< HEAD
 #' @export
-=======
-#'
 
->>>>>>> fdfd682abe0d432ff0e652e029be78f80ea3ca8d
 mean_precip <- function(df) {
 
   total_precip = sum(df[,4])
