@@ -8,6 +8,7 @@
 #' @author Robert Saldivar
 #' @author Jennifer Truong
 #' @return Amount of water supply (in kg/m^3)
+#' @export
 
 water_supply = function(df, groundwater = 20, use = 50) {
   total_precip = sum(df[,4])

@@ -25,4 +25,5 @@
 #' \item{DLY.TMAX.STDDEV}{Long-term standard deviations of daily maximum temperature}
 #' \item{DLY.TMIN.STDDEV}{Long-term standard deviations of daily minimum temperature}
 #' }
+#' @export
 "noaa_weather_data"
